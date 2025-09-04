@@ -1,0 +1,114 @@
+/* Using a modern, readable system font as requested */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.app-container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+/* Question Card Styling */
+.question-card, .results-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.option-button {
+  background-color: #ecf0f1;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+}
+
+.option-button:hover {
+  background-color: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+.option-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+/* Results Card Styling */
+.final-score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 2rem;
+}
+
+.answer-summary {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.answer-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.answer-summary li {
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.answer-summary li.correct {
+  background-color: #e8f5e9; /* Light green */
+  border-left: 5px solid #4caf50; /* Green */
+}
+
+.answer-summary li.incorrect {
+  background-color: #ffebee; /* Light red */
+  border-left: 5px solid #f44336; /* Red */
+}
+
+.restart-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.restart-button:hover {
+  background-color: #2980b9;
+}

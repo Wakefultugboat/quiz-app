@@ -1,0 +1,47 @@
+[
+  {
+    "text": "What is the capital of France?",
+    "options": [
+      { "id": 0, "text": "Berlin", "isCorrect": false },
+      { "id": 1, "text": "Madrid", "isCorrect": false },
+      { "id": 2, "text": "Paris", "isCorrect": true },
+      { "id": 3, "text": "Rome", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which planet is known as the Red Planet?",
+    "options": [
+      { "id": 0, "text": "Earth", "isCorrect": false },
+      { "id": 1, "text": "Mars", "isCorrect": true },
+      { "id": 2, "text": "Jupiter", "isCorrect": false },
+      { "id": 3, "text": "Venus", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the largest ocean on Earth?",
+    "options": [
+      { "id": 0, "text": "Atlantic Ocean", "isCorrect": false },
+      { "id": 1, "text": "Indian Ocean", "isCorrect": false },
+      { "id": 2, "text": "Arctic Ocean", "isCorrect": false },
+      { "id": 3, "text": "Pacific Ocean", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      { "id": 0, "text": "William Shakespeare", "isCorrect": true },
+      { "id": 1, "text": "Charles Dickens", "isCorrect": false },
+      { "id": 2, "text": "Mark Twain", "isCorrect": false },
+      { "id": 3, "text": "Jane Austen", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the chemical symbol for water?",
+    "options": [
+      { "id": 0, "text": "O2", "isCorrect": false },
+      { "id": 1, "text": "CO2", "isCorrect": false },
+      { "id": 2, "text": "H2O", "isCorrect": true },
+      { "id": 3, "text": "NaCl", "isCorrect": false }
+    ]
+  }
+]
